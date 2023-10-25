@@ -1,0 +1,229 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+   
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.5em 1.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  /* Nav */
+  nav ul {
+    font-family: "Varela Round", sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+  
+  ul.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ul.navigation-menu li {
+    display: inline-block;
+    margin: 0 0.65em;
+    padding: 0.35em 0.25em;
+    position: relative;
+  }
+  
+  ul.navigation-menu a:link,
+  ul.navigation-menu a:visited {
+    color: #fff;
+    font-weight: medium;
+    text-decoration: none;
+    padding: 0.8em;
+  }
+  
+  ul.navigation-menu a:hover,
+  ul.navigation-menu a:active,
+  ul.navigation-menu .active > a {
+    color: #db70a6;
+  }
+  
+  ul.navigation-menu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    text-align: left;
+    font-size: 0.95em;
+    margin: 0.25em 0;
+  }
+  
+  ul.navigation-menu ul li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  ul.navigation-menu li:hover > ul {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #db70a6;
+    display: block;
+  }
+  
+  ul.navigation-menu ul ul,
+  ul.navigation-menu ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+  /* Sub-menu styles */
+  
+  ul.navigation-menu ul {
+    background-color: #fff;
+  }
+  
+  ul.navigation-menu ul li {
+    padding: 0.5em 1em;
+  }
+  
+  ul.navigation-menu ul a {
+    color: #000;
+  }
+  
+  ul.navigation-menu ul a:hover {
+    color: #db70a6;
+  }
+  
+  /* Active menu item styles */
+  
+  ul.navigation-menu .active {
+    background-color: transparent;
+  }
+  
+  ul.navigation-menu .active {
+    color: #db70a6;
+  }
+  
+.hero
+{
+    margin: 100px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-heading
+{
+
+    text-align: left;
+    font-size: 25px;
+}
+.hero-heading p
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+.hover-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hover-button:hover {
+    background-color: #ff0000;
+}
+
+.cards{
+    margin: 100px;
+}
+.learn-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.learn-card-item {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.learn-card-item:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 20px;
+    color: #0074d9;
+    margin-top: 0;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer {
+  background-color: #5f5e5e; /* Change to your desired background color */
+  border-radius: 1rem; /* Adjust the border-radius as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+  margin: 4px;
+  border: 2px solid black;
+}
+
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #555; /* Change text color as needed */
+}
+
+.link {
+  text-decoration: none;
+  color: #f30000; /* Change link color as needed */
+}
+
+.footer-links {
+  display: flex;
+  margin-top: 0.5rem;
+  list-style: none;
+}
+
+.footer-link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #555; /* Change link color as needed */
+}
+
+  
