@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.landing{
+    height:100vh;
+    background-image: url("./bg.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar {
+    margin:30px 50px 30px 50px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.company-name {
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    display: flex;
+}
+
+
+.nav-item {
+    margin-right: 50px;
+   
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    transition: 1000ms;
+}
+
+.nav-item a:hover {
+   text-decoration: underline;
+   transition: 1000;
+}
