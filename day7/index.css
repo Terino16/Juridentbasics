@@ -12,12 +12,12 @@
     background-size:cover;
 }
 .navbar {
-    margin:30px 50px 30px 50px;
+    margin:50px;
     background-color: transparent;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+   
 }
 
 .company-name {
@@ -37,7 +37,6 @@
 
 .nav-item {
     margin-right: 50px;
-   
 }
 
 .nav-item a {
@@ -48,5 +47,41 @@
 
 .nav-item a:hover {
    text-decoration: underline;
-   transition: 1000;
+  
+}
+
+.card {
+    color: white;
+    margin: 10% 50px; 
+    backdrop-filter: blur(7px) saturate(93%);
+    -webkit-backdrop-filter: blur(7px) saturate(93%);
+    background-color: rgba(17, 25, 40, 0.36);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: max-content;
+    padding: 15px;
+}
+.card h1{
+    font-size: 50px;
+}
+
+.font-home{
+    font-size: xx-large;
+}
+
+.font-small{
+    font-family: sans-serif;
+    font-size:large;
+}
+
+button{
+    margin-top: 20px;
+    background-color: rgb(255, 96, 27);
+    border-radius: 20px;
+    padding: 15px;
+  
+    font-size: x-large;
+    border: none;
+    color:white;
+
 }
