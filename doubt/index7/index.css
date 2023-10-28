@@ -1,0 +1,90 @@
+* {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./bg1.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    margin:50px;
+    background-color: transparent;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.items {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    gap:40px;
+    display: flex;
+}
+
+.item {
+    margin-right: 50px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    transition:1000ms;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    background-color: rgb(236,130,84);
+    border-radius: 20px;
+    padding:10px;
+}
+
+.card {
+    color:white;
+    margin:50px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(10px) saturate(80%);
+    -webkit-backdrop-filter: blur(10px) saturate(80%);
+    background-color: rgba(242, 205, 165, 0.46);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width:max-content;
+    padding:15px;
+}
+
+.card h1 {
+    font-size: 50px;
+}
+
+.font-home {
+    font-size: xx-large;
+}
+.font-small {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+button {
+    margin:50px;
+    margin-top: 0;
+    background-color: rgb(236, 130, 84);
+    border-radius: 20px;
+    padding:15px;
+    font-size: x-large;
+    border:none;
+    color:white;
+}
