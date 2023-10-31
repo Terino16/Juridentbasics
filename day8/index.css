@@ -12,6 +12,7 @@ nav {
     background: #ffffff;
     color: rgb(0, 0, 0);
     align-items: center;
+    justify-content: space-between;
     text-align: center;
     padding: 10px;
     margin: 5px 30px 5px 30px;
@@ -55,15 +56,12 @@ ul.navbar li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-        flex-direction: row;
-        justify-content: space-between;
+    nav {  
         background-color: #b10202;
     }
     .navbar-options {
         margin-top: 0;
     }
-
     ul.navbar {
         display: flex;
         align-items: center;
@@ -71,17 +69,35 @@ ul.navbar li a:hover {
 }
 @media screen and (max-width: 425px) {
     nav {
-        flex-direction: row;
-        justify-content: space-between;
         background-color: #28b102;
     }
     .navbar-options {
-        margin-top: 0;
+       display: none;
     }
 
-    ul.navbar {
-        display: flex;
-        align-items: center;
-    }
+   .navbar-img{
+    margin: auto;
+   }
 }
 
+
+.hero{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(38,171,198);
+background: linear-gradient(177deg, rgba(38,171,198,1) 0%, rgba(255,255,255,1) 100%);
+}
+.hero-logo{
+    width: 350px;
+}
+.hero-text{
+    display: grid;
+    width: 350px;
+}
+.heading-valsco{
+    font-weight: bolder;
+    font-size: 80px;
+    margin: 0px;
+}
