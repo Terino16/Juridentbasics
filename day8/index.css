@@ -121,3 +121,132 @@ width: 350px;
 }
 
 
+
+.phone-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.phone-img img{
+ height: 500px;
+
+ @media screen and (max-width: 425px) {
+  height: 150px;
+  margin-top: 30px;
+ }
+}
+
+.blogs{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.blogs section{
+  width: 600px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 425px) {
+   display: none;
+   }
+}
+.blog-heading{
+  font-weight: 700;
+  font-size: xx-large;
+  @media screen and (max-width: 425px) {
+    font-size: xx-large;
+    }
+}
+.blog-read-button{
+  padding: 10px;
+  background: #009dff;
+  font-weight: 900;
+  font-size: medium;
+}
+
+.about{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.about-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.about-flex section{
+ width: 700px;
+ @media screen and (max-width: 768px) {
+   margin: auto;
+   width: auto;
+  }
+}
+.about-img{
+  height: 400px;
+
+  @media screen and (max-width: 768px) {
+   display: none;
+   }
+ 
+}
+
+
+.footer {
+  background-color: #5f5e5e; /* Change to your desired background color */
+  border-radius: 1rem; /* Adjust the border-radius as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+  margin: 4px;
+  border: 2px solid black;
+}
+
+
+.footer-content {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a7faa;
+}
+
+.copyright {
+  font-size: 18px;
+  color: #ffffff; /* Change text color as needed */
+  @media screen and (max-width: 425px) {
+   margin: auto;
+   }
+}
+
+.link {
+  text-decoration: none;
+  color: #a79f9f; /* Change link color as needed */
+}
+
+.footer-links {
+  display: flex;
+  margin-top: 0.5rem;
+  list-style: none;
+  @media screen and (max-width: 425px) {
+   display: none;
+   }
+}
+
+.footer-link {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff; /* Change link color as needed */
+}
