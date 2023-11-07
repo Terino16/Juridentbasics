@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick='document.getElementById("demo").style.display = "block"'; ">Click Me!</button>
+</body>
+</html> 
+<!-- 
+In JavaScript, `var`, `let`, and `const` are used to declare variables, but they have different scoping rules and mutability characteristics. Let's explain each of them with examples:
+
+1. `var`:
+   - `var` is the oldest way to declare variables in JavaScript.
+   - Variables declared with `var` have function-level scope, which means they are accessible throughout the entire function in which they are declared.
+   - Variables declared with `var` are hoisted, meaning they are moved to the top of their containing function or global scope, which can lead to some unexpected behavior.
+   - `var` variables can be re-declared and reassigned.
+   
+   Example:
+   ```javascript
+   function varExample() {
+     if (true) {
+       var x = 10;
+     }
+     console.log(x); // 10, even though x was declared inside the if block
+   }
+   ```
+
+2. `let`:
+   - `let` was introduced in ES6 (ECMAScript 2015) and offers block-level scope.
+   - Variables declared with `let` are limited to the block in which they are defined, including `if` statements, loops, and function bodies.
+   - `let` variables are not hoisted, so they are only accessible after the point of declaration.
+   - `let` variables can be reassigned but not re-declared within the same scope.
+
+   Example:
+   ```javascript
+   function letExample() {
+     if (true) {
+       let y = 20;
+     }
+     console.log(y); // Error: y is not defined because it's scoped to the if block
+   }
+   ```
+
+3. `const`:
+   - Like `let`, `const` was also introduced in ES6 and has block-level scope.
+   - Variables declared with `const` are constant, meaning their value cannot be reassigned after declaration.
+   - `const` variables are not hoisted and are also limited to the block in which they are defined.
+   - You must assign a value to a `const` variable at the time of declaration, and that value cannot change.
+
+   Example:
+   ```javascript
+   function constExample() {
+     const z = 30;
+     console.log(z); // 30
+     // Attempting to reassign will result in an error:
+     // z = 40; // Error: Assignment to a constant variable
+   }
+   ```
+
+To summarize:
+- Use `var` if you need function-level scope and are not concerned about hoisting.
+- Use `let` when you want block-level scope and the ability to reassign a variable.
+- Use `const` when you want block-level scope and a variable that remains constant after declaration.
+
+In modern JavaScript development, it's recommended to use `let` and `const` over `var` because they offer more predictable and manageable scoping and mutability behavior. -->
