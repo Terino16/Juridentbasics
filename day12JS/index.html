@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="flex flex-col items-center justify-start">
+        <h1 class="text-xl font-bold text-white">Password Generator</h1>
+        <div class="password-background p-5 border-2 border-amber-400 rounded-xl mt-4 flex flex-col items-center">
+            <div class="flex items-center">
+                <input id="password" class="p-2 w-400px" />
+                <button id="copyButton" class="bg-blue-500 p-2">Copy</button>
+            </div>
+            <div class="flex items-center justify-between w-500px">
+                <div>
+                    <input id="lengthRange" type="range" />
+                    <label id="lengthLabel" class="text-white">Length: 8</label>
+                </div>
+                <div>
+                    <input id="numberCheckbox" type="checkbox" />
+                    <label class="text-white">Number</label>
+                </div>
+                <div>
+                    <input id="charCheckbox" type="checkbox" />
+                    <label class="text-white">Sp.Character</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* Style for the button */
+#myButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Style for the input field */
+  #myInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the output text below the input */
+  #output {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
