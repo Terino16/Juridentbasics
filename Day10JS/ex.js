@@ -1,9 +1,9 @@
-let nam = "John";
-let topic = "JavaScript";
+// let nam = "John";
+// let topic = "JavaScript";
 
-console.log(nam + " is learning " + topic + " today");
+// // console.log(nam + "is learning " + topic + "today");
 
-// you can also use the template strings format, which allows you to embed a variable directly inside the string as follows:
+// // you can also use the template strings format, which allows you to embed a variable directly inside the string as follows:
 // console.log(`${nam} is learning ${topic} today`);
 
 
@@ -13,7 +13,7 @@ console.log(nam + " is learning " + topic + " today");
 
 
 
-// let score2 = 10 + '30';
+// let score2 = 10 + "30";
 
 // console.log(score2);
 
@@ -36,19 +36,19 @@ console.log(nam + " is learning " + topic + " today");
 // console.log(first_name);
 
 
-// You can also assign undefined to a variable explicitly as follows:
-
-// let last_name = undefined;
 
 
-//objects in js
-// // Creating an empty object
-// let person = {};
 
-// // Adding properties to the object
-// person.firstName = "John";
-// person.lastName = "Doe";
-// person.age = 30;
+// //objects in js
+// // // Creating an empty object
+//  let person = {
+//     firstName: "John",
+// lastName: "Doe",
+// age: 30
+//  };
+
+// // // Adding properties to the object
+
 
 // // You can also create an object with properties in a single step
 // let car = {
@@ -57,7 +57,7 @@ console.log(nam + " is learning " + topic + " today");
 //   year: 2020
 // };
 
-// // Accessing object properties
+// // // Accessing object properties
 // console.log(person.firstName); // "John"
 // console.log(car.model);       // "Camry"
 
@@ -66,7 +66,7 @@ console.log(nam + " is learning " + topic + " today");
 // Null in JavaScript
 // The null value is a special data type that represents an empty or unknown value. Here's how you assign a variable as null:
 
-// let first_name = null;
+ let first_name = null;
 // The code above means that the value of first_name is empty or unknown.
 // Both undefined and null are values that represent nothing, and other programming languages usually only have one, and that is null.
 
